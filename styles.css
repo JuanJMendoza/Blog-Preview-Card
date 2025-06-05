@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4d04e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #111111;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-top: 24px;
+  gap: 24px;
+}
+h1,
+p {
+  margin: 0;
+}
+.title {
+  font-weight: 800;
+  transition: color 500ms linear;
+}
+.card {
+  background-color: white;
+  border: 1px solid #111111;
+  border-radius: 20px;
+  width: 384px;
+  height: 522px;
+  padding: 24px;
+  box-shadow: 8px 8px;
+  transition: box-shadow 500ms linear;
+}
+.card:hover {
+  box-shadow: 14px 14px;
+}
+.card:hover .title {
+  color: #f4d04e;
+}
+.card-img {
+  border-radius: 10px;
+}
+.content {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.topic-container {
+  background-color: #f4d04e;
+  border-radius: 4px;
+  padding: 4px 12px;
+  width: 82px;
+  height: 29px;
+  line-height: 150%;
+  font-weight: 800;
+  font-size: 14px;
+}
+.date {
+  font-weight: 500;
+  font-size: 14px;
+}
+.description {
+  color: #6b6b6b;
+  font-weight: 500;
+  line-height: 150%;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+}
+.profile-img {
+  width: 32px;
+  height: 32px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
