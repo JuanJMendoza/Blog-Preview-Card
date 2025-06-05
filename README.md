@@ -21,16 +21,18 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+
 #### Desktop
+
 https://github.com/user-attachments/assets/b044d181-298a-4a6e-9c9b-351137c44bf0
 
 #### Mobile
-https://github.com/user-attachments/assets/d30e4d5e-9382-4342-9146-07273703e5dd
 
+https://github.com/user-attachments/assets/d30e4d5e-9382-4342-9146-07273703e5dd
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Blog Preview Card](https://www.frontendmentor.io/solutions/blog-preview-card-U82kTtGQKb)
 - Live Site URL: [Blog Preview Card](https://blog-preview-card-six-ashy.vercel.app/)
 
 ## My process
